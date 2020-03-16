@@ -1,0 +1,296 @@
+
+
+body,html{
+    margin:0;
+    height:100%;
+}
+body{  
+
+    background-image: url(images/Untitled\ design.png);
+    background-size: 120%;
+    background-position-y: 0px;
+
+}
+a{
+    text-decoration-line: none;
+    text-decoration-color: inherit;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 24px;
+    flex-direction: row;
+
+    color: white;
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    opacity: 70%;
+    position: fixed;
+    z-index: 10;
+}
+ul{
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+
+    position: absolute;
+    right:35px;
+    top: 18px;
+    
+    
+
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 28px,17px;
+    
+}
+.logo{
+    position:absolute;
+    left:50px;
+    
+
+}
+#premium{
+    position: absolute;
+    right: 435px;
+}
+li:hover{
+    color: rgb(12, 199, 12);
+}
+
+.row_row-simplified{
+    text-align: center;
+    margin: 0 auto;
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.homepage_h1{
+    color: white;    
+    font-size: 80px;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: -4px;
+    position: absolute;
+    top:200px;
+    
+}
+
+.homepage_h4{
+    color: white;    
+    font-family:Arial, Helvetica, sans-serif;
+    position:absolute;
+    top:340px;
+    font-weight: 300;
+    letter-spacing: 0.8px;
+}
+
+.homepage_greenbutton{
+    color:white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    background-color: #1DB954;
+    border-radius: 50px;
+    width: 320px;
+    height:48px;
+
+    position: absolute;
+    top:410px;
+    left:center;
+
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.footer_caixagrande{
+    width: 100%;
+    height:540px;
+    background-color: black;
+    padding: 80 0 50;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+
+    height: 407px;
+    width:  100%;
+    margin-left: 47.5px;
+    margin-right: 47.5px;
+    
+    
+    
+}
+.div_footer_left{
+
+    height: 346px;
+    width:162px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: absolute;
+    left: 60px;
+    top:750px;
+    
+}
+
+.div_footer_between{
+
+    height: 346px;
+    width:585px;
+    
+    display: flex;
+    flex-direction: row;
+
+    position: absolute;
+    left: 270px;
+    top:750px;
+    
+}
+.div_footer_right{
+
+    height: 346px;
+    width:192px;
+    padding: 0 15 0 0;
+    display: flex;
+    justify-content: space-between;
+
+    position: absolute;
+    left: 1000px;
+    top:770px;
+}
+.logofooter{
+    height: auto;
+} 
+#coluna1{
+    padding: 0px 15px;
+    width: 195px;
+    height: 346px;
+}
+#coluna2{
+    padding: 0px 15px;
+    width: 195px;
+    height: 346px;
+}
+#coluna3{
+    padding: 0px 15px;
+    width: 195px;
+    height: 346px;
+}
+#empresa{
+    color: grey;
+    font-weight: 900;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    margin: 20px 0px;
+}
+.primeira_coluna, .segunda_coluna, .terceira_coluna{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px 0px 15px;
+    
+}
+.colunas_between{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+  
+}
+.mediaicons{
+    background-color: #222326;
+    padding: 15px;
+    border-radius: 200px;
+    
+}
+#bolinha_insta{
+    background-color: #222326;
+    padding: 15px;
+    border-radius: 200px;
+    display: flex;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+}
+.mediaicons:hover{
+    background-color:#1DB954 ;
+}
+
+.primeira_coluna:hover, .segunda_coluna:hover, .terceira_coluna:hover{
+color: #1DB954;
+}
+
+#bolinha_insta:hover{
+    background-color: #1DB954;
+}
+.brasildiv{
+    width: 85%;
+    height: 18px;
+    margin: 0px 15px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    color: #919496;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+    position: absolute;
+    
+    top:1020px;
+}
+#flag{
+    margin-left: 10px;
+
+}
+.sobrediv{
+    width: 91%;
+    height: 18px;
+    margin: 0px 15px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    color: #919496;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    
+    position: absolute;
+    
+    top:1050px;
+}
+.sobreitens{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.copyright{
+    
+    
+    margin: 0px 15px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    color: #919496;
+    display: flex;
+    
+    
+    position: absolute;
+    
+    top:1053px;
+    left: 1070px;
+}
